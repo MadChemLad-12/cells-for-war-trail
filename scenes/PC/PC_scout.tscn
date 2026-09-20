@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cl06efaixjqwx"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1786191839]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2007722682]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1969669352]
+
+[node name="StateMachine" type="Node" parent="." unique_id=81994453]
+
+[node name="shoot" type="Node" parent="StateMachine" unique_id=802232858]
+
+[node name="idle" type="Node" parent="StateMachine" unique_id=702345460]
+
+[node name="walk" type="Node" parent="StateMachine" unique_id=2052762798]
+
+[node name="mine" type="Node" parent="StateMachine" unique_id=1617233756]
+
+[node name="throw" type="Node" parent="StateMachine" unique_id=909694687]

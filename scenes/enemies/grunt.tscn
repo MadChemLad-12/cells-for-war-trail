@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://r4a0bocoq4uu"]
+
+[node name="grunt" type="Area2D" unique_id=1002957599]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1449601301]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1798464127]
+
+[node name="StateMachine" type="Node" parent="." unique_id=1803061141]
+
+[node name="move" type="Node" parent="StateMachine" unique_id=2046295402]
+
+[node name="attack" type="Node" parent="StateMachine" unique_id=1733636154]

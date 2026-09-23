@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ctpp1lhpcaj7i"]
+
+[ext_resource type="Script" uid="uid://dmbc0f6aju0v6" path="res://scenes/Manager/bullet_die.gd" id="1_m1j8w"]
+
+[node name="bullet_die" type="Node" unique_id=964604561]
+script = ExtResource("1_m1j8w")

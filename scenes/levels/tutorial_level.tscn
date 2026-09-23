@@ -1,3 +1,30 @@
-[gd_scene format=3 uid="uid://bgdi1rl6wavp"]
+[gd_scene format=4 uid="uid://bgdi1rl6wavp"]
+
+[ext_resource type="Texture2D" uid="uid://cov46ocr08qoj" path="res://assets/tiles/hex_tiles.png" id="1_i4g7q"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_43dxg"]
+texture = ExtResource("1_i4g7q")
+texture_region_size = Vector2i(64, 58)
+0:0/0 = 0
+0:0/0/custom_data_0 = "ALL"
+1:0/0 = 0
+1:0/0/custom_data_0 = "ENEMY_ONLY"
+2:0/0 = 0
+2:0/0/custom_data_0 = "BLOCKED"
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ynetj"]
+tile_shape = 3
+tile_offset_axis = 1
+tile_size = Vector2i(64, 58)
+custom_data_layer_0/name = "Passable"
+custom_data_layer_0/type = 4
+sources/0 = SubResource("TileSetAtlasSource_43dxg")
 
 [node name="TutorialLevel" type="TileMapLayer" unique_id=489395725]
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAD+/wEAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAEAAAAAAAAAAAABAAIAAAAAAAAAAAACAAMAAAAAAAAAAAACAAQAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAMAAAAAAAAAAAABAAMAAAAAAAAAAAD//wMAAAAAAAAAAAD+/wMAAAAAAAAAAAD+/wIAAAAAAAAAAAD//wEAAAACAAAAAAAAAAIAAAACAAAAAAD//wIAAAAAAAAAAAD9/wEAAAAAAAAAAAD9/wIAAAAAAAAAAAD8/wAAAAAAAAAAAAD8/wIAAAABAAAAAAD8/wEAAAABAAAAAAD7/wIAAAAAAAAAAAD7/wEAAAAAAAAAAAD7/wAAAAAAAAAAAAD7////AAAAAAAAAAD6/wAAAAACAAAAAAD5/wAAAAAAAAAAAAD5/wEAAAACAAAAAAD5/wIAAAAAAAAAAAD6/wMAAAAAAAAAAAD6/wIAAAAAAAAAAAD6/wEAAAACAAAAAAD7/wMAAAAAAAAAAAD6/wQAAAAAAAAAAAD5/wMAAAAAAAAAAAD9/wQAAAAAAAAAAAD+/wUAAAAAAAAAAAD//wUAAAAAAAAAAAAAAAYAAAAAAAAAAAD//wYAAAAAAAAAAAD+/wYAAAAAAAAAAAD9/wUAAAAAAAAAAAD8/wYAAAABAAAAAAD9/wYAAAABAAAAAAD+/wcAAAABAAAAAAD9/wcAAAABAAAAAAD8/wcAAAABAAAAAAD7/wcAAAAAAAAAAAD7/wgAAAAAAAAAAAD8/wgAAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_ynetj")

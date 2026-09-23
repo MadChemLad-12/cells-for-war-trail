@@ -8,14 +8,9 @@
 [ext_resource type="Script" uid="uid://be7gcxpym5gaa" path="res://scenes/Manager/eventdeck.gd" id="6_tbkav"]
 [ext_resource type="Script" uid="uid://drdfn80coloxa" path="res://scenes/Manager/swarmdeck.gd" id="7_8edj6"]
 [ext_resource type="Script" uid="uid://dx0vdavealhlk" path="res://scenes/Manager/level_manager.gd" id="8_8edj6"]
+[ext_resource type="Script" uid="uid://mwgsq26ouwnm" path="res://scenes/Manager/die_manager.gd" id="9_5i35f"]
 
 [node name="MainGame" type="Node2D" unique_id=1479074864]
-
-[node name="GridManager" type="Node2D" parent="." unique_id=191793737]
-script = ExtResource("1_h366w")
-
-[node name="TurnManager" type="Node" parent="." unique_id=1991983971]
-script = ExtResource("2_h4sft")
 
 [node name="PlayerTeam" type="Node" parent="." unique_id=441283702]
 script = ExtResource("3_tbkav")
@@ -32,5 +27,16 @@ script = ExtResource("6_tbkav")
 [node name="swarmdeck" type="Node" parent="." unique_id=853823379]
 script = ExtResource("7_8edj6")
 
-[node name="LevelManager" type="Node" parent="." unique_id=1776175386]
+[node name="Manager" type="Node" parent="." unique_id=1428346881]
+
+[node name="GridManager" type="Node2D" parent="Manager" unique_id=191793737]
+script = ExtResource("1_h366w")
+
+[node name="TurnManager" type="Node" parent="Manager" unique_id=1991983971]
+script = ExtResource("2_h4sft")
+
+[node name="LevelManager" type="Node" parent="Manager" unique_id=1776175386]
 script = ExtResource("8_8edj6")
+
+[node name="DieManager" type="Node" parent="Manager" unique_id=762607556]
+script = ExtResource("9_5i35f")

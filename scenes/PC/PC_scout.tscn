@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://cl06efaixjqwx"]
 
+[ext_resource type="Script" uid="uid://dvvndjdgqjuew" path="res://scenes/PC/pc_scout.gd" id="1_mfvjl"]
+[ext_resource type="Script" uid="uid://cbf5mw63hyvmp" path="res://scenes/PC/state.gd" id="1_u4yti"]
+
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1786191839]
+script = ExtResource("1_mfvjl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2007722682]
 
@@ -17,3 +21,10 @@
 [node name="mine" type="Node" parent="StateMachine" unique_id=1617233756]
 
 [node name="throw" type="Node" parent="StateMachine" unique_id=909694687]
+
+[node name="state" type="Node" parent="StateMachine" unique_id=1363852559]
+script = ExtResource("1_u4yti")
+
+[node name="primary" type="Node" parent="." unique_id=1917027521]
+
+[node name="secondary" type="Node" parent="." unique_id=1009333169]

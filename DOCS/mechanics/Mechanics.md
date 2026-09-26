@@ -12,7 +12,9 @@ To shoot the player spends an amo of they type and pays a action points. They th
 
 A secondary weapon can be overclocked by spending 3 gold gathered from the enviroment. This allows the weapon to store up to 5 amo but does not replenish it once overclocked. Overstocked weapons are now stronger with an additional effect or improvements to damage. Once a mission ends the overclock ends and the weapon returns to normal. 
 
-Primary Weapons have hold two upgrades, secondary weapons can hold 1 and 2 when overclocked. The player can store upto 3 and can use an action to swap overclocks at will. 
+Primary Weapons have hold two upgrades, secondary weapons can hold 1 and 2 when overclocked. The player can store upto 3 upgrades and can use an action to swap overclocks at will. 
+
+Weapons can have either linear shooting or area shooting patters. Linear can only shoot one tile at a time (like a msg) but can spread their dice out how they like to hit multiple targets. Area attacks roll doe and only hit the given area shown on the weapon icon (eg hit tiles 0,0 1,0 0,1 in a triangle). 
 
 ###dice
 All Damage is calculated using dice or something similar for enemies and PC's.

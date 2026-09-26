@@ -37,6 +37,7 @@ script = ExtResource("2_h4sft")
 
 [node name="LevelManager" type="Node" parent="Manager" unique_id=1776175386]
 script = ExtResource("8_8edj6")
+level_pool = null
 
 [node name="DieManager" type="Node" parent="Manager" unique_id=762607556]
 script = ExtResource("9_5i35f")

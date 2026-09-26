@@ -1,0 +1,6 @@
+up to equip weapon. I do think from here I should try on my own to do some more work and use 
+# whwn Im confused
+
+Maybe I will focus on writting classes for weapons and the other characters. 
+
+Then I can work on the managers

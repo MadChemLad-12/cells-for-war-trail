@@ -29,13 +29,6 @@ Swarm tracker +0
 Swarm activation false
 Resource +1 health
 
-Card ID 04
-Name tough descision
-Description a quick choice. Choice one pick to gain an extra action point and increase the swarm tracker by 2, or do nothing and not increase the swarm track. 
-Swarm tracker +0
-Swarm activation false
-Resource +1 health
-
 ##swarm
 Name grunts!!!
 Description

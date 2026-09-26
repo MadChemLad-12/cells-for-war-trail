@@ -3,7 +3,7 @@ Idle - defult state
 
 Moving - move towards the target hex within max move distance. Obsticals and pits block movement for most characters unless they have something to prevent it.
 
-Shooting
+Shooting - roll the associated weapons attack die if an enemy is within its range. The dice should be placed on the hex the damage is allowed on. If multiple die are rolled then those die must have a connecting path together unless it is an area type attack. 
 
 Melee - roll the melee die if an enemy is in range 1
 

@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://dvvndjdgqjuew" path="res://scenes/PC/pc_scout.gd" id="1_mfvjl"]
 [ext_resource type="Script" uid="uid://cbf5mw63hyvmp" path="res://scenes/PC/state.gd" id="1_u4yti"]
+[ext_resource type="Script" uid="uid://c248wcvssx278" path="res://scenes/PC/state_machine.gd" id="2_iqd8r"]
+[ext_resource type="Script" uid="uid://bqf83s7wbua82" path="res://scenes/PC/idle.gd" id="3_rhw8f"]
+[ext_resource type="Script" uid="uid://dn7xt06updnxc" path="res://scenes/PC/shoot.gd" id="3_w0c3w"]
+[ext_resource type="Script" uid="uid://cnvmjhqw86218" path="res://scenes/PC/walk.gd" id="4_y8o6o"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1786191839]
 script = ExtResource("1_mfvjl")
@@ -11,12 +15,16 @@ script = ExtResource("1_mfvjl")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1969669352]
 
 [node name="StateMachine" type="Node" parent="." unique_id=81994453]
+script = ExtResource("2_iqd8r")
 
 [node name="shoot" type="Node" parent="StateMachine" unique_id=802232858]
+script = ExtResource("3_w0c3w")
 
 [node name="idle" type="Node" parent="StateMachine" unique_id=702345460]
+script = ExtResource("3_rhw8f")
 
 [node name="walk" type="Node" parent="StateMachine" unique_id=2052762798]
+script = ExtResource("4_y8o6o")
 
 [node name="mine" type="Node" parent="StateMachine" unique_id=1617233756]
 
